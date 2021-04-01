@@ -1,3 +1,62 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+
 #root {
-  color: red;
+  height: 12900px;
+}
+
+.column {
+  background-color: rgb(13, 18, 90);
+  float: left;
+  margin-right: 10px;
+  margin-left: 11px;
+  width: 30%;
+  padding: 10px;
+  height: 490px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+
+/* .episode */
+.episode {
+  background-color: rgb(2, 128, 167);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 20px;
+}
+
+/* .name_Of_Ep */
+.name_Of_Ep {
+  color: white;
+  text-align: center;
+}
+
+/* .Se_and_Ep */
+.Se_and_Ep {
+  color: white;
+  text-align: center;
+}
+
+/* img */
+img {
+  height: 208px;
+  padding-top: 10px;
+  border-radius: 20px;
+}
+
+/* .summary */
+.summary {
+  color: white;
+}
+
+#info {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 160px;
+  padding-bottom: 30px;
+  color: rgb(255, 255, 255);
+}
+a {
+  color: rgb(2, 128, 167);
 }
